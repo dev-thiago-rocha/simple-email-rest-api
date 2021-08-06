@@ -16,7 +16,7 @@ docker run -d -p 3306:3306 --name email_mysql8
 -e MYSQL_ROOT_PASSWORD={root_password}
 -e MYSQL_RANDOM_ROOT_PASSWORD=true
 -e MYSQL_USER={mysql_user}
--e MYSQL_PASSWORD={mysql_user_pass
+-e MYSQL_PASSWORD={mysql_user_pass}
 mysql:8
 ```
 
