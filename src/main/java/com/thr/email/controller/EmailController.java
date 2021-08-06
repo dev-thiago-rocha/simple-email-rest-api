@@ -19,7 +19,7 @@ public class EmailController {
     private final EmailService emailService;
 
     @PostMapping
-    public SendEmailResponseDto sendEmail(@Valid @RequestBody final SendEmailRequestDto requestDto) {
+    public SendEmailResponseDto sendEmail(@Valid @RequestBody SendEmailRequestDto requestDto) {
         return emailService.sendEmail(requestDto);
     }
 
